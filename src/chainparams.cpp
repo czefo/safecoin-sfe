@@ -165,7 +165,9 @@ public:
 
        vSeeds.push_back(CDNSSeedData("35.229.44.140", "35.229.44.140")); // seed node
        vSeeds.push_back(CDNSSeedData("35.231.110.175", "35.231.110.175")); // seed node
-       vSeeds.push_back(CDNSSeedData("35.224.125.48", "35.224.125.48 ")); // seed node
+       vSeeds.push_back(CDNSSeedData("35.224.125.48", "35.224.125.48")); // seed node
+       vSeeds.push_back(CDNSSeedData("18.219.144.28", "18.219.144.28")); // seed node
+       vSeeds.push_back(CDNSSeedData("safecoin.org", "dnsseed.safecoin.org")); // Safecoin
 
         // TODO: set up bootstrapping for mainnet
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,61);
