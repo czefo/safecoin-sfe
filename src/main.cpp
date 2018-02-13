@@ -1508,7 +1508,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
               nSubsidy >>= (nHeight / 131400);      //sc Subsidy is cut in half every 525600 blocks, which will occur approximately every three months
               return nSubsidy;
             }
-        else return(1);       // After 2 yeras, a fixed reward of 1 SAFE per block for a slowly decreasing 1.5% POS interest per annum.
+        else return(1);       // After 2 yeras, a fixed reward of 1 SAFE per block
     }
     else
     {
